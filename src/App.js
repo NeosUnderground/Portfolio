@@ -7,6 +7,7 @@ import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
 import {projectList} from './components/projectCard/projectList';
 
+
 function App() {
   return (
     <div className="App">
