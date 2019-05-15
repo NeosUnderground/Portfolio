@@ -1,0 +1,166 @@
+.skillsetContainer{
+  display: flex;
+  background: white;
+  height: 50%;
+  flex-direction: column;
+}
+
+.badgeContainer{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 4%;
+}
+
+.shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 153, 205, .4 ); }
+
+.skillsetInfo{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.skillsetCard{
+  width: 75%;
+  background-color: #f2f2f2;
+  opacity: .9;
+}
+
+li{
+  padding:5px;
+  text-align: left;
+}
+
+.badge1{
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge2{
+  animation-duration: 4s;
+  animation-delay: 1.2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge3{
+  animation-duration: 4s;
+  animation-delay: 1.4s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge4{
+  animation-duration: 4s;
+  animation-delay: 1.6s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge5{
+  animation-duration: 4s;
+  animation-delay: 1.8s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge6{
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge7{
+  animation-duration: 4s;
+  animation-delay: 2.2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge8{
+  animation-duration: 4s;
+  animation-delay: 2.4s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge9{
+  animation-duration: 4s;
+  animation-delay: 2.6s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge10{
+  animation-duration: 4s;
+  animation-delay: 2.8s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge11{
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge12{
+  animation-duration: 4s;
+  animation-delay: 3.2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge13{
+  animation-duration: 4s;
+  animation-delay: 3.4s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge14{
+  animation-duration: 4s;
+  animation-delay: 3.6s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge15{
+  animation-duration: 4s;
+  animation-delay: 3.8s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge16{
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.badge17{
+  animation-duration: 4s;
+  animation-delay: 4.2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.bounce-6 {
+       animation-name: bounce-6;
+       animation-timing-function: ease;
+   }
+   @keyframes bounce-6 {
+       0%   { transform: scale(1,1)      translateY(0); }
+       10%  { transform: scale(1.1,.9)   translateY(0); }
+       30%  { transform: scale(.9,1.1)   translateY(-20px); }
+       50%  { transform: scale(1.05,.95) translateY(0); }
+       57%  { transform: scale(1,1)      translateY(-2px); }
+       64%  { transform: scale(1,1)      translateY(0); }
+       100% { transform: scale(1,1)      translateY(0); }
+   }
+
+@media only screen and (max-width: 650px){
+.skillsetContainer{
+  padding: 3%;
+}
+
+  .skillsetInfo{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-wrap: wrap;
+  }
+  .skillsetCard{
+    width: 100%;
+  }
+}

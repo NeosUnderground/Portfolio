@@ -1,0 +1,13 @@
+.projectsContainer{
+  background: linear-gradient(150deg, #99e6ff 0%,  #00ace6  75%);
+  opacity: .95;
+  border-top: 5px solid #99e6ff;
+  border-bottom: 5px solid #99e6ff;
+  height:auto;
+}
+
+@media only screen and (max-width: 650px){
+  .projectsContainer{
+    padding: 10%;
+  }
+}

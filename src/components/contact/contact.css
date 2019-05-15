@@ -1,0 +1,13 @@
+.contactContainer{
+  background: #0099cc;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.contactImageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

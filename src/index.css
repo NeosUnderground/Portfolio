@@ -1,0 +1,17 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Courier New", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family:  source-code-pro, Menlo, Monaco, Consolas, ,
+    monospace;
+}
+
+.noMargin{
+  margin-top: 0;
+}
