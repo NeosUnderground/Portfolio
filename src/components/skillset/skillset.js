@@ -10,6 +10,7 @@ const Skillset=()=> {
           <ul className='list1 f3'>
             <li>HTML</li>
             <li>CSS</li>
+            <li>CSS Grid/Flexbox</li>
             <li>Bootstrap</li>
             <li>React</li>
             <li>Angular</li>
