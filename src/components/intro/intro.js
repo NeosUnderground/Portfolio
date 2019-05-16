@@ -112,9 +112,9 @@ class Intro extends React.Component {
       <div className='topContainer containerFlex'>
 
         <Particles className='particles' params={particles}/>
-        <div className='nameplate br3 pa2 shadow-2'>
-          <h1 className='noMargin'>James Kubitz</h1>
-          <p className='blueText'>I design and develop ideas that become reality.</p>
+        <div className='nameplate br3 pa3 shadow-2'>
+          <h1 className='noMargin f1'>James Kubitz</h1>
+          <p className='blueText f3 b'>Developing ideas into reality.</p>
         </div>
       </div>
     );

@@ -16,7 +16,7 @@ const Projects=({projects})=>{
   })
 
   return(
-    <div className='projectsContainer pa6'>
+    <div className='projectsContainer'>
       <div className='projectsCardContainer'>
         {projectCardComponent}
       </div>

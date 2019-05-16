@@ -5,20 +5,19 @@ const About=()=>{
   return(
     <div className='aboutContainer pa6'>
         <div className='aboutInfo'>
-          <div className='aboutText1  br4 shadow-4 pa3 f4'>
-            <h3 className='bounce-6 hello'>Hello!</h3>
-            <p className='textAlignLeft'>
+          <div className='aboutText1 br4 shadow-4 pa4 f3'>
+            <h3 className='hello'>Hello!</h3>
+            <p className='textAlignLeft p1 f3'>
               My name is James Kubitz, I’m an ambitious web developer who is actively seeking to
-              improve my skillset. I am determined to continuously learn about my
-              field of study and stay up to date with the latest technologies. New concepts come quickly to me and I am able
-              apply them accordingly; I often spend hours conducting independent research and teaching myself.
+              improve my skillset. I am eager to continuously learn about my
+              field of study and stay up to date with the latest technologies,
+              often spending hours conducting independent research and teaching myself.
               Programming is a passion of mine as I enjoy the satisfaction of turning a concept into
-              reality, taking pride in the finished product. My actions reflect someone who is mature and respectful towards others. My supervisors say I am a responsible
-              and dependable person with a strong work ethic. I am an outgoing individual and a fun
-              person to be around.
+              reality, taking pride in the finished product.
             </p>
+            <p className='textAlignLeft'>Be sure to view the footer for my GitHub and Linkedin accounts along with a Gmail Icon that you can use to contact me.</p>
           </div>
-          <div className='aboutText2  br4 shadow-4 pa3 f4'>
+          <div className='aboutText2 br4 shadow-4 pa4 f3'>
             <h3>Experience</h3>
             <p className='textAlignLeft'> Programmer Analyst - University of Missouri, August 2018 - Current</p>
             <ul>

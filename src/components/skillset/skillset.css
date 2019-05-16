@@ -10,10 +10,10 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 4%;
+  margin-top: 8%;
 }
 
-.shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 153, 205, .4 ); }
+.shadow-3 { box-shadow: 4px 2px 8px 4px rgba( 0, 153, 205, .4 ); }
 
 .skillsetInfo{
   display: flex;
@@ -23,7 +23,7 @@
 
 .skillsetCard{
   width: 75%;
-  background-color: #f2f2f2;
+  background-color: white;
   opacity: .9;
 }
 
@@ -154,13 +154,30 @@ li{
   padding: 3%;
 }
 
-  .skillsetInfo{
+.skillsetInfo{
     display: flex;
     justify-content: space-between;
     justify-items: center;
     flex-wrap: wrap;
-  }
-  .skillsetCard{
+}
+.skillsetCard{
     width: 100%;
-  }
+}
+.badgeContainer{
+  justify-content: center;
+}
+.bounce-6 {
+       animation-name: bounce-6;
+       animation-timing-function: ease;
+   }
+   @keyframes bounce-6 {
+       0%   { transform: scale(1,1)      translateY(0); }
+       10%  { transform: scale(1.1,.9)   translateY(0); }
+       30%  { transform: scale(.9,1.1)   translateY(-8px); }
+       50%  { transform: scale(1.05,.95) translateY(0); }
+       57%  { transform: scale(1,1)      translateY(-2px); }
+       64%  { transform: scale(1,1)      translateY(0); }
+       100% { transform: scale(1,1)      translateY(0); }
+   }
+
 }
