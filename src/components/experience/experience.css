@@ -1,5 +1,5 @@
-.aboutContainer{
-  background: linear-gradient(180deg, #99e6ff 0%,#ffffff  75%);
+.experienceContainer{
+  background: linear-gradient(180deg, #ffffff 50%, #99e6ff 75%);
   opacity: .95;
   height: auto;
   display: flex;
@@ -7,21 +7,30 @@
   align-items: center;
 }
 
-.aboutText1{
+.experienceInfo{
   background-color: white;
   width:75%;
   margin-right: 3%;
+}
+
+.documentImage{
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.documentImageContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .textAlignLeft{
   text-align: left;
 }
 
-.contactLink {
-  color:  #0099cc;
-  text-decoration: none;
-}
-
+.shadow-4 { box-shadow: 4px 2px 10px 4px rgba( 0, 0, 0, .2); }
 
 .bounce-6 {
        animation-name: bounce-6;
@@ -38,21 +47,20 @@
    }
 
 
+
 @media only screen and (max-width: 1000px){
 
-     .aboutContainer{
-       padding: 20% 5% 20% 5%;
-       margin-top: 10%;
-       margin-bottom: 5%;
-     }
-     .aboutText1{
-       margin-right: 0;
-       width: 100%;
-     }
-     .info{
-       font-size: 18px;
-     }
-     .contactInfoLink{
-        font-size: 20px;
-     }
-}
+        .experienceContainer{
+          padding: 5% 5% 30% 5%;
+          margin-top: 5%;
+          margin-bottom: 15%;
+        }
+        .experienceInfo{
+          margin-right: 0;
+          width: 100%;
+          font-size: 18px;
+        }
+        .documentImageContainer{
+          font-size: 12px;
+        }
+   }

@@ -22,3 +22,10 @@
 .blueText{
   color: #00ace6;
 }
+
+@media only screen and (max-width: 650px){
+
+  .nameplate{
+    font-size: 10px;
+  }
+}

@@ -6,7 +6,7 @@ const Skillset=()=> {
     <div className='skillsetContainer pa6'>
       <div className='skillsetInfo'>
         <div className='skillsetCard div1 br4 shadow-3 pa2 ma3 f2'>
-          <h4 className='underline blueText'>Front-End</h4>
+          <h4 className='blueText'>Front-End</h4>
           <ul className='list1 f3'>
             <li>HTML</li>
             <li>CSS + Grid/Flexbox </li>
@@ -18,7 +18,7 @@ const Skillset=()=> {
           </ul>
         </div>
         <div className='skillsetCard div2 br4 shadow-3 pa2 ma3 f2'>
-          <h4 className='underline blueText'>Web-Server</h4>
+          <h4 className='blueText'>Web-Server</h4>
           <ul className='list1 f3'>
             <li>Node.js</li>
             <li>Nodemon</li>
@@ -29,7 +29,7 @@ const Skillset=()=> {
           </ul>
         </div>
         <div className='skillsetCard div3 br4 shadow-3 pa2 ma3 f2'>
-          <h4 className='underline blueText'>Back-End</h4>
+          <h4 className='blueText'>Back-End</h4>
           <ul className='list1 f3'>
             <li>MongoDB</li>
             <li>SQL</li>

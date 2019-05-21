@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Intro from './components/intro/intro';
 import About from './components/about/about';
+import Experience from './components/experience/experience';
 import Skillset from './components/skillset/skillset';
 import Projects from './components/projects/projects';
 import Contact from './components/contact/contact';
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Intro/>
       <About/>
+      <Experience/>
       <Skillset/>
       <Projects projects={projectList}/>
       <Contact/>
