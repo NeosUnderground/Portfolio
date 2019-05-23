@@ -1,19 +1,19 @@
 export const projectList =[
   {
     id: 1,
-    name: 'SmartBrain',
-    description:'Facial Recognition API',
-    technolgy:'React, Express, Node, Postgress, ClarifaiAPI, Bcrypt',
-    url: '',
-    image:'https://i.imgur.com/BeQaxZy.png'
+    name: 'DeluxDetailing',
+    description:'Auto Detailing site',
+    technolgy:'React',
+    url: 'https://deluxdetailing.com/',
+    image:'https://i.imgur.com/674MDDH.png'
   },
   {
     id: 2,
-    name: 'RoboFriends',
-    description:'Searching Application',
-    technolgy:'React, Redux',
-    url: '',
-    image:'https://i.imgur.com/lGWnwqp.png'
+    name: 'Soil Lab',
+    description:'Soil Lab Testing site for University of Missouri',
+    technolgy:'HTML, CSS, C#, Bootstrap, SQL ',
+    url: 'http://soilplantlab.missouri.edu/soil/?_ga=2.253018121.1644390077.1558458508-2139954666.1553697134',
+    image:'https://i.imgur.com/3xhoEpt.png'
   },
   {
     id: 3,
@@ -25,11 +25,11 @@ export const projectList =[
   },
   {
     id: 4,
-    name: 'DeluxDetailing',
-    description:'Auto Detailing site',
-    technolgy:'React',
-    url: 'https://deluxdetailing.com/',
-    image:'https://i.imgur.com/674MDDH.png'
+    name: 'SmartBrain',
+    description:'Facial Recognition API',
+    technolgy:'React, Express, Node, Postgress, ClarifaiAPI, Bcrypt',
+    url: '',
+    image:'https://i.imgur.com/lGWnwqp.png'
   },
   {
     id: 5,
@@ -41,10 +41,10 @@ export const projectList =[
   },
   {
     id: 6,
-    name: 'Soil Lab',
-    description:'Soil Lab Testing site for University of Missouri',
-    technolgy:'HTML, CSS, C#, Bootstrap, SQL ',
-    url: 'http://soilplantlab.missouri.edu/soil/?_ga=2.253018121.1644390077.1558458508-2139954666.1553697134',
-    image:'https://i.imgur.com/uVBIHkA.png'
+    name: 'RoboFriends',
+    description:'Searching Application',
+    technolgy:'React, Redux',
+    url: '',
+    image:'https://i.imgur.com/lGWnwqp.png'
   },
 ]

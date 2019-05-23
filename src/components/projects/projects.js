@@ -17,6 +17,7 @@ const Projects=({projects})=>{
 
   return(
     <div className='projectsContainer'>
+      <h2>Click on a project below to learn more!</h2>
       <div className='projectsCardContainer'>
         {projectCardComponent}
       </div>
