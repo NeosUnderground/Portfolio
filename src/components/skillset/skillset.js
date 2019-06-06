@@ -23,6 +23,7 @@ const Skillset=()=> {
             <li>Node.js</li>
             <li>Nodemon</li>
             <li>Express.js</li>
+            <li>RESTful APIs</li>
             <li>Mongoose</li>
             <li>Knex.js</li>
             <li>C# ASP.Net</li>
@@ -39,7 +40,7 @@ const Skillset=()=> {
           </ul>
         </div>
       </div>
-      
+
       <div className='badgeContainer'>
         <div className='br4 shadow-3 pa2 ma2 grow bounce-6 badge1'><a href='https://www.mongodb.com/' target='blank'><img src={require('./images/MongoDB.jpg')} style={{width:"40px", height:"40px"}} alt=''/></a></div>
         <div className='br4 shadow-3 pa2 ma2 grow bounce-6 badge2'><a href='https://expressjs.com/' target='blank'><img src={require('./images/Expressjs.jpg')} style={{width:"40px", height:"40px"}} alt='' /></a></div>
