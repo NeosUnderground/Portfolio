@@ -41,10 +41,10 @@ export const projectList =[
   },
   {
     id: 6,
-    name: 'RoboFriends',
+    name: 'ReactRobots',
     description:'Searching Application',
     technolgy:'React, Redux',
-    url: '',
-    image:'https://i.imgur.com/lGWnwqp.png'
+    url: 'https://neosunderground.github.io/reactRobots/',
+    image:'https://i.imgur.com/2nljDgT.png'
   },
 ]
