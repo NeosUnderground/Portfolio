@@ -9,7 +9,7 @@ const particles = {
        "value": 80,
        "density": {
          "enable": true,
-         "value_area": 1000
+         "value_area": 1500
        }
      },
      "color": {

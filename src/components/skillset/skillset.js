@@ -18,7 +18,7 @@ const Skillset=()=> {
           </ul>
         </div>
         <div className='skillsetCard div2 br4 shadow-3 pa2 ma3 f2'>
-          <h4 className='blueText'>Web-Server</h4>
+          <h4 className='blueText'>Back-End</h4>
           <ul className='list1 f3'>
             <li>Node.js</li>
             <li>Nodemon</li>
@@ -29,7 +29,7 @@ const Skillset=()=> {
           </ul>
         </div>
         <div className='skillsetCard div3 br4 shadow-3 pa2 ma3 f2'>
-          <h4 className='blueText'>Back-End</h4>
+          <h4 className='blueText'>Database</h4>
           <ul className='list1 f3'>
             <li>MongoDB</li>
             <li>SQL</li>
@@ -39,7 +39,7 @@ const Skillset=()=> {
           </ul>
         </div>
       </div>
-
+      
       <div className='badgeContainer'>
         <div className='br4 shadow-3 pa2 ma2 grow bounce-6 badge1'><a href='https://www.mongodb.com/' target='blank'><img src={require('./images/MongoDB.jpg')} style={{width:"40px", height:"40px"}} alt=''/></a></div>
         <div className='br4 shadow-3 pa2 ma2 grow bounce-6 badge2'><a href='https://expressjs.com/' target='blank'><img src={require('./images/Expressjs.jpg')} style={{width:"40px", height:"40px"}} alt='' /></a></div>
