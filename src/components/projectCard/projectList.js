@@ -47,4 +47,12 @@ export const projectList =[
     url: 'https://neosunderground.github.io/reactRobots/',
     image:'https://i.imgur.com/2nljDgT.png'
   },
+  {
+    id: 7,
+    name: 'AutoAssessment',
+    description:'DOM manipulation. Click Nav and footer items. Fill out form.',
+    technolgy:'HTML, CSS, vanilla JS',
+    url: 'https://neosunderground.github.io/AutoAssessment/',
+    image:'https://i.imgur.com/jkwLAZx.png'
+  },
 ]

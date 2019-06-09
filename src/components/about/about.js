@@ -7,7 +7,7 @@ const About=()=>{
           <div className='aboutText1 br4 shadow-4 pa4 f3'>
             <h3>Hello!</h3>
             <p className='textAlignLeft info p1 f3'>
-              My name is James Kubitz, I’m an ambitious web developer who is actively seeking to
+              My name is James Kubitz. I’m an ambitious web developer who is actively seeking to
               improve my skillset. I am eager to continuously learn about my
               field of study and stay up to date with the latest technologies,
               often spending hours conducting independent research and teaching myself.
