@@ -15,7 +15,7 @@ const Experience =()=>{
           <li>Perform unit testing and documentation</li>
           <li>Agile and DevOps methodologies</li>
         </ul>
-        <p className='textAlignLeft'> Bachelor of Science in Information Systems - Columbia College, December 2018</p>
+        <p className='textAlignLeft'> Bachelor of Science in Information Systems - Columbia College, June 2018</p>
         <p className='textAlignLeft'> Associate of Science in Programming - Moberly Area Community College, May 2016</p>
 
         <div className='documentImageContainer'>
