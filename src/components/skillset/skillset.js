@@ -13,30 +13,34 @@ const Skillset=()=> {
             <li>Bootstrap</li>
             <li>React/Redux</li>
             <li>Angular</li>
-            <li>Javascript</li>
+            <li>Javascript(ES6)</li>
             <li>JSX</li>
+            <li>JQuery</li>
           </ul>
         </div>
         <div className='skillsetCard div2 br4 shadow-3 pa2 ma3 f2'>
-          <h4 className='blueText'>Back-End</h4>
+          <h4 className='blueText'>Back-End/Database</h4>
           <ul className='list1 f3'>
             <li>Node.js</li>
-            <li>Nodemon</li>
             <li>Express.js</li>
             <li>RESTful APIs</li>
-            <li>Mongoose</li>
-            <li>Knex.js</li>
-            <li>C# ASP.Net</li>
+            <li>ASP.Net C#</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>SQL Server Management Studio</li>
+            <li>Firebase</li>
           </ul>
         </div>
         <div className='skillsetCard div3 br4 shadow-3 pa2 ma3 f2'>
-          <h4 className='blueText'>Database</h4>
+          <h4 className='blueText'>Other</h4>
           <ul className='list1 f3'>
-            <li>MongoDB</li>
-            <li>SQL</li>
-            <li>PostgressSQL</li>
-            <li>SQL Server Management Studio</li>
-            <li>Firebase</li>
+            <li>Version Control</li>
+            <li>Git/Github</li>
+            <li>Deployment with Heroku</li>
+            <li>Postman</li>
+            <li>Wireframing</li>
+            <li>Photoshop/Premiere</li>
+            <li>Atom/Sublime</li>
           </ul>
         </div>
       </div>

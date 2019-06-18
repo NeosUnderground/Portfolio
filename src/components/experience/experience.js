@@ -8,9 +8,12 @@ const Experience =()=>{
         <h3>Professional Experience</h3>
         <p className='textAlignLeft'> Programmer Analyst - University of Missouri, August 2018 - Current</p>
         <ul>
-          <li>Maintain and update existing web applications using C# ASP.NET,TFS, and SQL.</li>
+          <li>Maintain and update existing web applications using C# ASP.NET, MySQL, TFS, and Visual Studio.</li>
+          <li>Develop front end using HTML, CSS, Bootstrap, and Javascript.</li>
           <li>Use SQL Server Management Studio for databases and tables.</li>
           <li>Work closely with clients to design and develop applications.</li>
+          <li>Perform unit testing and documentation</li>
+          <li>Agile and DevOps methodologies</li>
         </ul>
         <p className='textAlignLeft'> Bachelor of Science in Information Systems - Columbia College, December 2018</p>
         <p className='textAlignLeft'> Associate of Science in Programming - Moberly Area Community College, May 2016</p>
